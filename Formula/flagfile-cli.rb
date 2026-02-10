@@ -1,25 +1,25 @@
 class FlagfileCli < Formula
   desc "CLI tool for managing and evaluating Flagfile feature flags"
   homepage "https://github.com/dzhibas/flagfile"
-  version "0.1.8"
+  version "0.1.9"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.8/flagfile-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "1a3ffe333856cc61bba2ee136d7b1ba24980908c17f010c289ffcb00850b655e"
+      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.9/flagfile-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "bfb7937b65550f9e8e536105b1c720c27c1aeca7f81761012b42b770c7d24f1a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.8/flagfile-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "1f74224ac2d0230a2c9fb3b0cd53a445a84bbc32dbdda6140a712edf9a51c660"
+      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.9/flagfile-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "17103ebacad1161c7bd699f61a4eb01fd67ded53ff8212f719aa603a0bb74826"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.8/flagfile-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cfbefd52f18cc55a3aba1381c3bc57153b8e344608ad6abc7942cf29cbe28304"
+      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.9/flagfile-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6eeeb5b37d0eed0c893bbf4b3ebe41ce2c0567eba2f98f11ce9ef6f148e93057"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.8/flagfile-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3a041c888cca776c813e9234792d88041b62802e66c5046da7142f8cd5ced3fa"
+      url "https://github.com/dzhibas/flagfile/releases/download/v0.1.9/flagfile-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "46819e2a525589a4cb5b7bfc00da3d7eef92204ab5735339e8b36cb02fe4b42b"
     end
   end
 
